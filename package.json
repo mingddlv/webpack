@@ -1,0 +1,26 @@
+{
+  "name": "myWebpack",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./config/webpack.base.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingddlv/webpack.git"
+  },
+  "keywords": [],
+  "author": "wingwah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingddlv/webpack/issues"
+  },
+  "homepage": "https://github.com/mingddlv/webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
