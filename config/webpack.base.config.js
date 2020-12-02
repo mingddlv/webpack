@@ -15,5 +15,16 @@ module.exports = {
       inject: 'body',
       hash: false
     })
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)?$/,
+        options: {
+          cacheDirectory: true
+        },
+        loader: 'babel-loader'
+      }
+    ]
+  }
 }

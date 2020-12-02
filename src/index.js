@@ -1,5 +1,15 @@
-const msg = "this is a apple"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const hash = "dsdf23"
+function App () {
+  return (
+    <div>
+      <div className="test">小王子</div>
+    </div>
+  )
+}
 
-console.log(msg);
+ReactDOM.render(
+  <App/>,
+  document.getElementById('root')
+)
